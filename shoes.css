@@ -1,0 +1,108 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+body{
+    background: whitesmoke;
+}
+/* define the width of the dress image */
+#dress{
+    width: 20%;
+}
+/* define the width of the shoe image */
+#shoes{
+    width: 30%;
+}
+/* define the width of the clock image */
+#clock{
+    width: 20%;
+}
+/* dress div box effects */
+#dressb{
+    display: inline;
+    margin-top: 40%;
+}
+/* shoes div box effects */
+#shoesb{
+    margin-left:20%;
+    display: inline;
+}
+/* clock div box effects */
+#clockb{
+    display: inline;
+    margin-left:10%;
+    margin-top: 40%;
+}
+/* heading div box styles */
+#heading{
+    margin: 5%;
+    /* padding: 20px; */
+    border: 2px solid black;
+}
+/* "Tania Just-In-Time Clothes" effects */
+h1{
+    font-size: 105%;
+    font-weight: 30px;
+    font-family: cursive;
+}
+/* intro paragraph styles */
+#intro{
+    font-weight: 100%;
+    font-size: 100%;
+}
+/* all forms conform to this */
+label{
+    margin-bottom: 10%;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    
+}
+/* all inputs follow this input */
+input{
+    /* width: 40%; */
+    margin-bottom: 10%;
+}
+
+/* effects for the name label */
+.name{
+    margin-top: 5%;
+}
+
+#name{
+    margin-top: 5%;
+}
+/* discrete effects for the "'till pick up" */
+.tpu{
+    font-size: 10px;
+    font-weight: normal;
+    
+}
+/* discrete effects for the "gownsorder" form */
+.gownsorder{
+    font-size: 15px;
+}
+
+#po{
+    float: right;
+    
+}
+
+#butt{
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border-radius:20px; 
+    background-image: linear-gradient(to bottom right, white, rgb(17, 17, 4), green, pink, grey);
+    cursor: pointer;
+    
+}
+
+#butt:active{
+    border: 2px solid white;
+    background-image: linear-gradient(to bottom left,pink, grey, orange, gold);
+
+}

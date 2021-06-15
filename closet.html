@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tania Just-In-Time Clothes</title>
+    <link rel="stylesheet" href="./shoes.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div id="heading">
+        <h1>TANIA Just-In-Time CLOTHES</h1>
+    <p id="intro">All items 20k each, gowns or shoes! </p>
+    </div>
+    
+    <div id="clockb">
+        <img src="./images/model3.jpg" alt="" id="clock">
+    </div>
+    <div id="dressb">
+        <img src="./images/model1.png" alt="" id="dress">
+    </div>
+
+    <div id="shoesb">
+        <img src="./images/model2.jpg" alt="" id="shoes" >
+    </div>
+    <div id="main">
+        <form action="#">
+            <label for="name" class="name">Name : <input type="text" id="name" placeholder="Tania Closet" onchange="collectOrder()">
+            </label>
+            
+            <label for="gownsorder" class="gownsorder"># of gowns <input type="text" id="gownsorder"></label>
+            
+
+            <label for="shoesorder" class="shoesorder"># of shoes <input type="text" id="shoesorder"></label>
+            
+
+            <label for="tpu" class="tpu">Minutes 'till pickup <input type="text" id="tpu"></label>
+
+            <label for="tax">Tax <input type="text" id="tax"></label>
+            
+
+            <label for="subtotal">Subtotal <input type="text" id="subtotal"></label>
+            
+
+            <label for="total">Total <input type="text" id="total"></label>
+            
+        </form>
+
+    </div>
+
+    <div id="po">
+        <button id="butt" onclick="display()">Place order</button>
+    </div>
+
+    <script src="./clock.js"></script>
+
+</body>
+</html>
